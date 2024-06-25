@@ -4,7 +4,7 @@ class Person {
     // different for each object!
     String name;
     int age = 0;
-    int height = 0;
+    int height = 0; // in centimeters
 
     // Constructor
     public Person(String name, int age, int height) {
