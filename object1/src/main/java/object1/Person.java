@@ -1,4 +1,5 @@
-// Define a class
+package object1;
+
 class Person {
     // Define Instance Variables
     // different for each object!
@@ -15,7 +16,7 @@ class Person {
 
     public static void main(String[] args) {
         // Declare and initialize an object
-        Person person1 = new Person("John", 30);
+        Person person1 = new Person("John", 30, 0);
 
     /* Now you can use the Object `person1` */
         
